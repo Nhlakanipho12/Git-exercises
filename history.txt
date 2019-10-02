@@ -1,0 +1,696 @@
+    1  cd /var/www/
+    2  sudo apt install apache2
+    3  cd Downloads/
+    4  ls
+    5  sudo chmod +x google-chrome-stable_current_amd64.deb 
+    6  sudo ./google-chrome-stable_current_amd64.deb 
+    7  sudo dpkg -i google-chrome-stable_current_amd64.deb 
+    8  cd /var/www
+    9  sudo chown -R $USER /var/www
+   10  laravel
+   11  sudo nano ~/.bashrc
+   12  exit
+   13  laravel
+   14  cd /var/www
+   15  sudo apt install git
+   16  git clone https://github.com/octs-SA/proof.git
+   17  git clone https://github.com/Sjk-Lacoste/levels.git
+   18  git clone https://github.com/Sjk-Lacoste/izwelethu.git
+   19  git clone https://github.com/octs-SA/octians.git
+   20  cd proof
+   21  cd ..
+   22  ls
+   23  cd levels
+   24  yarn
+   25  npm install
+   26  ls
+   27  cd 
+   28  cd /var/www
+   29  rm -rf levels
+   30  ls
+   31  cd ~
+   32  sudo apt install terminator
+   33  exit
+   34  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
+   35  sudo echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
+   36  sudo apt update
+   37  sudo apt install yarn
+   38  cd /var/www/proof/
+   39  yarn
+   40  exit
+   41  cd 
+   42  sudo apt install vls
+   43  sudo apt install vlc
+   44  sudo apt install phpmyadmin
+   45  exit
+   46  sudo apt update
+   47  sudo apt upgrade
+   48  sudo apt install php-simplexml php-curl php-imagick
+   49  sudo apt install php-dom
+   50  cd /var/www/octians/
+   51  composer install
+   52  cd ..
+   53  clear
+   54  cd izwelethu/
+   55  yarn
+   56  cd ..
+   57  ls
+   58  sudo apt install php-gd
+   59  sudo apt install software-properties-common
+   60  sudo add-apt-repository ppa:ondrej/php
+   61  sudo apt install php7.3 php7.3-common php7.3-opcache php7.3-cli php7.3-gd php7.3-curl php7.3-mysql
+   62  exit
+   63  cd /var/www/proof
+   64  composer install
+   65  cd ..
+   66  cd octians
+   67  ls
+   68  yarn
+   69  clear
+   70  cd ..
+   71  ls
+   72  cd izwelethu/
+   73  composer install
+   74  exit
+   75  sudo apt update
+   76  sudo apt upgrade
+   77  code .
+   78  cd ..
+   79  shutdown now
+   80  sudo apt update
+   81  sudo apt upgrade
+   82  `ls
+   83  clear
+   84  clear
+   85  ls
+   86  git config Nhlakanipho12
+   87  clear
+   88  git config --global user.name "Thulani Khoza"
+   89  git config --global user.name
+   90  git status
+   91  git config --global user.name
+   92  git config --global user.mail "mavasetn@gmail.com"
+   93  git config --global user.mail
+   94  git config --global --list
+   95  git --version
+   96  git remote -v
+   97  git config color.ui true
+   98  git config --global color.ui true
+   99  git config --global core.editor emacs
+  100  ls -al ~/.ssh
+  101  pwd
+  102  ls
+  103  git status
+  104  clear
+  105  ls
+  106  pwd
+  107  mkdir workspace
+  108  cd workspace/
+  109  ls
+  110  touch README.md
+  111  ls
+  112  echo README.md > CHANGELOG.md 
+  113  ls
+  114  echo $PATH
+  115  ls
+  116  cd ..
+  117  ls
+  118  cd ..
+  119  ls
+  120  cd /home/recruit/workspace/
+  121  ls
+  122  touch task1.c
+  123  ls
+  124  vim task1.c 
+  125  vi task1.c 
+  126  ls
+  127  rm task1.c 
+  128  ls
+  129  vi umuzi.md
+  130  vi recruit.md
+  131  vi cohort.md
+  132  ls
+  133  cat umuzi.md recruit.md cohort.md > summary.md
+  134  ls
+  135  cat summary.md 
+  136  ls
+  137  nano summary.md 
+  138  cat summary.md 
+  139  locate umuzi
+  140  ls
+  141  man locate
+  142  locate -b '/umuzi.md'
+  143  man locate
+  144  locate -b '\umuzi.md'
+  145  ls
+  146  clear
+  147  ls
+  148  pwd
+  149  cd /home/recruit/
+  150  ls
+  151  cd workspace/
+  152  ls
+  153  cat summary.md 
+  154  ls
+  155  man rm
+  156  cd ..
+  157  ls
+  158  rm -f workspace/
+  159  cd workspace/
+  160  ls
+  161  rm -f CHANGELOG.md README.md summary.md umuzi.md 
+  162  ls
+  163  rm -f cohort.md recruit.md 
+  164  ls
+  165  touch README.md
+  166  echo README.md .CHANGELOG.md
+  167  ls
+  168  echo README.md > CHANGELOG.md
+  169  ls
+  170  man echo
+  171  ls
+  172  rm -f README.md CHANGELOG.md 
+  173  ls
+  174  vim README.md
+  175  sudo apt install vim
+  176  vim README.md
+  177  cat README.md 
+  178  cp README.md CHANGELOG.md
+  179  ls
+  180  cat CHANGELOG.md 
+  181  echo README.md > More.md
+  182  ls
+  183  cat More.md 
+  184  rm -f More.md 
+  185  ls
+  186  cat CHANGELOG.md 
+  187  cat README.md 
+  188  mkdir tmp
+  189  ls
+  190  pwd
+  191  cd
+  192  ls
+  193  cd workspace/
+  194  ls
+  195  touch exercise.md
+  196  ls
+  197  mv exercise.md/emp
+  198  mv exercise.md/tmp
+  199  mv /workspace/tmp/exercise.md
+  200  clear
+  201  mv pwd
+  202  pwd
+  203  ls
+  204  clear
+  205  mv/exercise.md/tmp
+  206  mv /workspace/tmp/exercise.md
+  207  man mv
+  208  mv /tmp/exercise.md
+  209  clear
+  210  mv workspace/tmp/exercise.mb
+  211  clrar
+  212  clear
+  213  mv exercise.md/tmp
+  214  cd /tmp/
+  215  ls
+  216  clear
+  217  pwd
+  218  ls
+  219  ls -lR
+  220  clear
+  221  cd ..
+  222  ls
+  223  cd ..
+  224  ls
+  225  cd /home/
+  226  ls
+  227  cd recruit/
+  228  ls
+  229  cd workspace/
+  230  ls
+  231  cd tmp/
+  232  ls
+  233  cd ..
+  234  ls
+  235  mv exercise.md/tmp
+  236  ls
+  237  clear
+  238  cd ..
+  239  ls
+  240  cd /workspace/recruit/tmp
+  241  pwd
+  242  ls
+  243  cd workspace/recruit/tmp
+  244  clear
+  245  ls
+  246  cd workspace/
+  247  ls
+  248  mv /home/recruit/workspace/tmp/exercise.md
+  249  clear
+  250  ls
+  251  mv exercise.md /workspace/tmp
+  252  cat tmp
+  253  clear
+  254  ls
+  255  rm -f tmp
+  256  ls
+  257  mv exercise.md/tmp/
+  258  clear
+  259  mv exercise.md tmp/
+  260  ls
+  261  clear
+  262  ls
+  263  rm -r tmp/
+  264  ls
+  265  touch exercise.md
+  266  ls
+  267  mkdir tmp
+  268  ls
+  269  mv exercise.md tmp/
+  270  ls
+  271  cd tmp/
+  272  ls
+  273  cd ..
+  274  ls
+  275  mkdir Task1
+  276  ls
+  277  mv CHANGELOG.md README.md Task1/
+  278  ls
+  279  mkdir Task2
+  280  ls
+  281  cd Task2
+  282  ls
+  283  vim umuzi.md
+  284  cat umuzi.md 
+  285  vim recruits.md
+  286  cat recruits.md 
+  287  clear
+  288  vim cohort.md
+  289  cat cohort.md 
+  290  cat umuzi.md recruits.md cohort.md 
+  291  echo umuzi.md recruits.md cohort.md > summary.md
+  292  cat summary.md 
+  293  rm -f summary.md 
+  294  ls
+  295  echo umuzi.md recruits.md cohort.md >> summary.md
+  296  ls
+  297  cat summary.md 
+  298  vim summary.md 
+  299  rm -f summary.md 
+  300  ls
+  301  cp umuzi.md recruits.md cohort.md  > summary.md
+  302  cat summary.md 
+  303  ls
+  304  rm -f summary.md 
+  305  cat clear
+  306  clear
+  307  cat umuzi.md recruits.md cohort.md > summary.md
+  308  ls
+  309  cat summary.md 
+  310  ls
+  311  pwd
+  312  ls
+  313  cd workspace/
+  314  ls
+  315  cd Task1
+  316  ls
+  317  cd ..
+  318  ls
+  319  cd Task2
+  320  ls
+  321  rm -f cohort.md recruits.md umuzi.md recruits.md 
+  322  ls
+  323  rm -f summary.md 
+  324  ls
+  325  cd ..
+  326  ls
+  327  cd tmp
+  328  ls
+  329  rm -f exercise.md 
+  330  ls
+  331  cd ..
+  332  ls
+  333  cd  Task2
+  334  ls
+  335  touch exercise.md
+  336  ls
+  337  mv Task2/tmp/exercise.mb
+  338  mv tmp/exercise.mb
+  339  mv exercise.mb workspace/tmp
+  340  mv exercise.mb /workspace/tmp
+  341  clear
+  342  mv exercise.md /workspace/tmp
+  343  clear
+  344  ls
+  345  mv exercise.md /home/recruit/workspace/Task2/tmp
+  346  ls
+  347  cd tmp
+  348  cd ..
+  349  ls
+  350  cd Task2
+  351  ls
+  352  cat tmp
+  353  vim tmp 
+  354  clear
+  355  ls
+  356  rm tmp
+  357  ls
+  358  touch exercise.md
+  359  ls
+  360  mvls
+  361  ls
+  362  cd ..
+  363  ls
+  364  rm -r tmp/
+  365  ls
+  366  cd Task2
+  367  ls
+  368  clear
+  369  ls
+  370  cd ..
+  371  ls
+  372  cd Task2
+  373  mkdir tmp
+  374  ls
+  375  mv exercise.md /home/recruit/workspace/Task2/tmp
+  376  ls
+  377  cd tmp/
+  378  ls
+  379  cd ..
+  380  ls
+  381  mkdir Task3
+  382  ls
+  383  cd Task3
+  384  ls
+  385  vim umuzi.md
+  386  vim recruit.md
+  387  vim cohort.md
+  388  ls
+  389  cat umuzi.md recruit.md cohort.md 
+  390  cat umuzi.md recruit.md cohort.md > summary.md
+  391  ls
+  392  cat summary.md 
+  393  vim summary.md 
+  394  echo "The end" >> summary.md 
+  395  cat summary.md 
+  396  nano summary.md 
+  397  cat summary.md 
+  398  nano summary.md 
+  399  cat summary.md 
+  400  ls
+  401  mkdir umuzi
+  402  ls
+  403  touch umuzi
+  404  ls
+  405  cd
+  406  ls
+  407  locate "umuzi"
+  408  locate -i umuzi
+  409  cd /clear
+  410  ls
+  411  cd workspace/
+  412  cd rec
+  413  ls
+  414  cd Task3
+  415  ls
+  416  mv umuzi.md /umuzi
+  417  clear
+  418  ls
+  419  mv -f umuzi.md umuzi
+  420  ls
+  421  cd umuzi/
+  422  ls
+  423  locate "umuzi"
+  424  cd 
+  425  locate umuzi
+  426  find "umuzi"
+  427  clear
+  428  locate umuzi
+  429  locate umuzi > search_result.md
+  430  cat search_result.md 
+  431  ls
+  432  cd Documents/
+  433  ls
+  434  cd Guy-Luyanda/
+  435  ls
+  436  cd ..
+  437  ls
+  438  clear
+  439  ls
+  440  touch pad.md
+  441  ls
+  442  cd Desktop
+  443  cd ..
+  444  ls
+  445  cd Desktop/
+  446  ls
+  447  mkdir work
+  448  ls
+  449  cd ..
+  450  cd Documents/
+  451  ls
+  452  clear
+  453  ls
+  454  pwd
+  455  cp pad.md /home/recruit/Desktop/work/pad_copy.md
+  456  ls
+  457  cd ..
+  458  ls
+  459  dc Desktop/
+  460  clear
+  461  cd
+  462  ls
+  463  cd Desktop/
+  464  ls
+  465  cd work
+  466  ls
+  467  locate updatebd
+  468  ls
+  469  cd 
+  470  ls
+  471  cd Documents/
+  472  ls
+  473  locate pad_copy.md
+  474  cd 
+  475  locate pad_copy.md
+  476  ls
+  477  locate pad_copy.md
+  478  locate umuzi
+  479  locate updatedb
+  480  locate pad_copy.md
+  481  cd 
+  482  cd Desktop/
+  483  ls
+  484  locate updatedb
+  485  cd work/
+  486  locate updatedb
+  487  clear
+  488  cd
+  489  locate pad_copy.md
+  490  cd ..
+  491  ls
+  492  cd recruit/
+  493  ls
+  494  cd Documents/
+  495  locate updatedb
+  496  find / -type -name "*.pdf"
+  497  find / -type f -name "*.pdf"
+  498  find / -type f -name "*.pdf" > print_resuls.md
+  499  ls
+  500  cat print_resuls.md 
+  501  clear
+  502  cat print_resuls.md 
+  503  ls --time-style=+%D | grep 'date +%D'
+  504  ls- al
+  505  ls -al
+  506  ls -alx
+  507  clear
+  508  find /etc -type f -printf '%TY-%Tm-%Td %TT %p\n' | sort -r
+  509  clear
+  510  stat --printf="%y %n\n" $(ls -tr $(find * -type f))
+  511  clear
+  512  ls -ltc
+  513  find -ltc
+  514  find ls -ltc
+  515  clear
+  516  find . -maxdepth 1 -newermt "2016-12-06"
+  517  find . -maxdepth 1 -newermt "2019-09-27"
+  518  clear
+  519  ls
+  520  vim source_code.md
+  521  ls
+  522  find . -maxdepth 1 -newermt "2019-09-27"
+  523  vim source_code.md 
+  524  find . -maxdepth 1 -newermt "2019-09-27"
+  525  cd
+  526  find . -maxdepth 1 -newermt "2019-09-27"
+  527  pwd
+  528  ls
+  529  nano my_bio.md
+  530  ls
+  531  locate my_bio.md
+  532  cd /home/recruit/workspace/
+  533  ls
+  534  vim my_bio.md
+  535  ls
+  536  mkdir my_files
+  537  mv my_bio.md /my_files
+  538  clear
+  539  ls
+  540  mv /my_files/my_bio.md
+  541  mv my_bio.md my_files/
+  542  ls
+  543  cd
+  544  ls
+  545  cd workspace/
+  546  ls
+  547  mkdir git-exercises
+  548  cd git-exercises/
+  549  ls
+  550  ld -a
+  551  git init
+  552  ls -a
+  553  git status
+  554  touch README.md
+  555  ls -a
+  556  git add README.md 
+  557  git status
+  558  git commit -m "initial commit"
+  559  git log
+  560  git config --global user.mail
+  561  git config --global user.mail "thulani.khoza@umuzi.org"
+  562  git config --global user.mail
+  563  git status
+  564  git add README.md 
+  565  git status
+  566  git commit -m "initial commit"
+  567  git config --global user.email "thulani.khoza@umuzi.org
+  568  "
+  569  git config --global user.name "Sxaxa"
+  570  git commit -m "initial commit"
+  571  git remote add origin https://github.com/Sxaxa/Git-exercises.git
+  572  git push -u origin master
+  573  git log
+  574  ls
+  575  cd workspace/
+  576  ls
+  577  mkdir linux-challenges
+  578  ls
+  579  cd linux-challenges/
+  580  ls
+  581  vim lunux.md
+  582  man ls
+  583  vim lunux.md 
+  584  man pwd
+  585  vim lunux.md 
+  586  man pwd
+  587  vim lunux.md 
+  588  ls
+  589  vim lunux.md 
+  590  ls -al --time-style=+%D | grep 'date +%D'
+  591  ls
+  592  cd
+  593  ls -al --time-style=+%D | grep 'date +%D'
+  594  find /type f -name "*.pdf"
+  595  ls
+  596  find /type -f -name "*.pdf"
+  597  find /type  -name "*.pdf"
+  598  find /type -f -name "*.pdf"ls
+  599  clear
+  600  ls
+  601  cd workspace/
+  602  ls
+  603  my_files/
+  604  ls
+  605  git branch
+  606  ls
+  607  cd workspace/
+  608  ls
+  609  cd git-exercises/
+  610  ls
+  611  git branch 
+  612  clear
+  613  git log
+  614  ls
+  615  nano README.md 
+  616  cat README.md 
+  617  clear
+  618  git status
+  619  git congif --global user.mail
+  620  git config --global user.mame
+  621  clear
+  622  git status
+  623  git config --global user.name
+  624  git config --global user.mail
+  625  git add README.md 
+  626  git commit -m "second commit"
+  627  git push
+  628  ls
+  629  cd ..
+  630  ls
+  631  clear
+  632  ls
+  633  rm -r git-exercises/
+  634  ls
+  635  rm -rf git-exercises/
+  636  ls
+  637  mkdir git-exercises
+  638  ls
+  639  cd git-exercises/
+  640  ls
+  641  clear
+  642  ls
+  643  cd ..
+  644  ls
+  645  rm -rf git-exercises/
+  646  ls
+  647  mkdir git-basic-exercises
+  648  cd git-basic-exercises/
+  649  ls -a
+  650  git init 
+  651  ls -a
+  652  git status
+  653  touch README.md
+  654  ls -a
+  655  git status
+  656  git log
+  657  git add README.md 
+  658  git status
+  659  git commit -m "initial commit"
+  660  git log
+  661  nano README.md 
+  662  cat README.md 
+  663  git status
+  664  git commit -m "second commit"
+  665  git add README.md 
+  666  git commit -m "second commit"
+  667  nano README.md 
+  668  git add README.md 
+  669  git commit -m "third commit"
+  670  git log
+  671  git checkout 9785702d12fe00ae5c9c6c60e0494638228f517e
+  672  q
+  673  cat README.md 
+  674  git checkout master
+  675  cat README.md 
+  676  git branch
+  677  git branch milkshake-flavours
+  678  git branch 
+  679  git branch milkshake-flavours 
+  680  ls
+  681  git branch 
+  682  git checkout milkshake-flavours 
+  683  ls
+  684  git branch
+  685  nano milkshakes.md
+  686  cat milkshakes.md 
+  687  git status
+  688  git add milkshakes.md 
+  689  git commit -m "added initial flavours"
+  690  git log
+  691  checkout master
+  692  git checkout master
+  693  git branch history
+  694  git log
+  695  git branch
+  696  history > history.txt
